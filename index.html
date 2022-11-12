@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="viewport" content="with=device-width, initial-scale=1.0">
+   <meta charset="utf-8">
+    <title>Chase Hedge's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css" integrity="sha384-X8QTME3FCg1DLb58++lPvsjbQoCT9bp3MsUU3grbIny/3ZwUJkRNO8NPW6zqzuW9" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/07baeb629e.js" crossorigin="anonymous"></script>
+</head>
+<body> 
+    <section class="header" id="home">
+        <nav>
+            <a href="index.html"><img src="Images/logo.png"></a>
+            <div class="nav-links" id="navLinks" onclick="hideMenu()">
+                <i class="fa fa-times" style="color: white;" onclick="showMenu()"></i>
+
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#EXP">EXPERIENCE</a></li>
+                    <li><a href="#projects">PROJECTS</a></li>
+                    <li><a href="">CONTACT</a></li>
+                    <li><a href="">ABOUT</a></li>
+    
+                </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true"  style="color: white;" onclick="showMenu()"></i>
+        </nav>
+        
+<div class="text-box">
+    <h1>My Development Portfolio</h1>
+    <p>This website contains all of my development projects, projects coming soon, and my contact information.<br> Welcome to my portfolio, feel free to contact me via the contact page with any questions or offers.</p>
+    <a href="#projects" class="hero-btn">Click Here to View My Work</a>
+        
+</div>
+        
+        
+</section>
+       
+<!---------------- experience tab --------------->   
+    
+<section class="course">
+    <h2 id="EXP">My Experience</h2>
+    <p3>This is a summary of my experience, education, and skills.</p3>   
+    
+    <div class="row">
+       <div class="course-col">
+           <h3>NETWORK SECURITY AND SUPPORT, CSC</h3>
+           <p>A one year careers studies certificate program through Brightpoint Community College.This gave me the oppurtunity to work with the OSI model, layers, and network secuirty concepts.</p>
+        </div>
+        
+       <div class="course-col">
+           <h3>WGU: INFORMATION TECHNOLOGY, B.S</h3>
+           <p>I am currently attending WGU to recieve my bachelor's in Information Technology. Through WGU I will also be receiving nine third party certifications, such as A+, Network+, Security+, and Ect.</p>
+           </div>
+        
+        <div class="course-col">
+           <h3>HTML5, CSS, and JAVASCRIPT</h3>
+            <p>I have used CodeCademy to learn HTML5, CSS, and JavaScript. I am efficient with each of these languages and use them to build real world projects. I used these languages to code this website and the websites you will find in the Projects page.</p>   
+        
+        </div>  
+    </div>
+</section>
+<!-----------------------projects----------------->
+    
+<section class="projects">
+    <h2>My Projects</h2>
+    <p id="projects">This is a collection of projects that I have coded and designed!</p>
+    
+    <div class="row">
+        <div class="project-col">
+            <img src="Images/comingsoon3.jpg">
+            <div class="layer">
+                <h4>COMING SOON</h4>
+            
+            </div>   
+        </div>
+        <div class="project-col">
+            <img src="Images/comingsoon4.webp">
+            <div class="layer">
+                <h4>COMING SOON</h4>
+            
+            </div>   
+        </div>
+        <div class="project-col">
+            <img src="Images/comingsoon5.webp">
+            <div class="layer">
+                <h4>COMING SOON</h4>
+            
+            </div>   
+        </div>
+    </div>
+</section>
+    
+<!----------------------footer------------------->
+    
+<section class="footer">
+    
+<p>Thank you for taking the time to review my portfolio. If you would like to contact me at the top of the page is a link to a contact form<br> where you will be able to submit me an email! I look foward to working with you!</p>
+<p2>Made by Chase Hedge</p2>
+</section>
+
+    
+    
+    
+    
+    
+<!--------------- JavaScript for Toggle Menu ------------------>
+<script>
+        
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+         navLinks.style.right = "0";
+     }
+     function hideMenu(){
+         navLinks.style.right = "-200px";
+    }
+    
+</script>
+    
+</body>
+    
+</html>
+            
+     
+
+ 
